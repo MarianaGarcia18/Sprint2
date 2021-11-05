@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    background-color: white;
+    background-image: url('https://scontent.feoh3-1.fna.fbcdn.net/v/t1.6435-9/248366925_407723831013918_2612684283525103060_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHch0VY_27-4uUcgVXT_U_2_Q7eWuUSoW79Dt5a5RKhbuBiusGYu2MxReJO9STE0QO0dlLXTHWyC8RKK21CvVHO&_nc_ohc=RY8XaouuqnkAX80B0Mb&_nc_ht=scontent.feoh3-1.fna&oh=4bfd20e21266f899c37f8f3da6884b8b&oe=61A8B9B4');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+background-image {
+    width: 400px;
+    height:100%;
+}
+
+p{
+    text-align:center;
+    font-size: 25px;
+}
+.boton{
+    display:block;
+    width:68px;
+    height: 68px;
+    font-size: 25px;
+    border-radius: 100%;
+    border-collapse: collapse;
+    box-shadow: -2px -2px 2px 2px rgb(252,252,252), 2px 2px 2px 2px #E0DBCF;
+    margin: 5%;
+    border: none;
+    background-color: #F4F5F7;
+    font-family: inter,sans-serif;
+    color: #627785;
+    margin: 5px;
+    font-weight:600;
+}
+.resultado{
+    margin: 3%;
+    margin-top: 18%;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    width:300px;
+    height: 80px;
+    line-height: 100px;
+    background-color:#A5A5A5;
+    border-radius: 4%;
+    border: 12px solid black;
+    font-family: inter,sans-serif;
+    font-size: 35px;
+    color: #585E64;
+}
+.calculadora{
+    width:362px;
+    height: 638px;
+    border: 1px solid #C4C5C6;
+    margin-right: 35%;
+    margin-left: 15%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3%;
+    background-color: #EDEFF1;
+    margin-top: 4%;
+    box-shadow: 4px 4px 4px 4px #E5E5E5;
+    margin-bottom: 4%;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+#igual{
+    background-color: #2D41F5;
+    color: #ffffff;
+    font-size: 28px;
+}
+#borrar{
+    background-color: #FE9505;
+}
+#resta{
+    font-size: 40px;
+    background-color: #D5D6E9;
+}
+
+#division{
+    background-color: #D5D6E9;
+}
+
+#multiplicacion{
+    background-color: #D5D6E9;
+    font-size: 28px;
+}
+
+#suma{
+    background-color: #D5D6E9;
+}
+#sumayresta{
+    background-color: #F5F0E3;
+}
+#modulo{
+    background-color: #F5F0E3;
+}
